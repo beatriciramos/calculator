@@ -1,0 +1,39 @@
+.main{
+    width: 560px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+.main h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: pink;
+    text-transform: uppercase;
+    padding: 10%;
+}
+.display{
+    background-color: #cccccc;
+    font-size: 20px;
+    padding: 10px;
+    text-align: right;
+}
+.keyboards{
+    display: flex;
+    margin-top: 10px;
+}
+.keyboards > .numbers{
+    flex: 3;
+}
+.keyboards > .operations{
+    flex: 1;
+}
+.keyboardsTable{
+    display: table;
+    width: 100%;
+}
+.button{
+    padding: 10px;
+    margin: 10px !important;
+    display: block;
+    background-color: pink !important;
+}
